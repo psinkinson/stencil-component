@@ -17,7 +17,9 @@
     "test": "jest",
     "test.watch": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@stencil/sass": "0.0.5"
+  },
   "devDependencies": {
     "@stencil/core": "^0.9.1",
     "@stencil/dev-server": "latest",
@@ -27,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/psinkinson/stencil-component.git"
   },
-  "author": "Ionic Team",
+  "author": "Paul Sinkinson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/psinkinson/stencil-component"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/psinkinson/stencil-component",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
