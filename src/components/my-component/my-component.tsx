@@ -1,7 +1,7 @@
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'ps-component',
+  tag: 'ps-web-component',
   styleUrl: 'my-component.scss',
   shadow: true
 })
