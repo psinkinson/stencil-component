@@ -1,6 +1,6 @@
 {
-  "name": "my-component",
-  "version": "0.0.1",
+  "name": "ps-web-component",
+  "version": "1.0.0",
   "description": "Stencil Component Starter",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
